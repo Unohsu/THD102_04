@@ -1,0 +1,239 @@
+@import url("reset.css");
+
+body{
+    background-color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header開始 */
+.header{
+    /* border: 1px solid black; */
+    background-color: white;
+    width: 1920px;
+    height: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header .logo img{
+    width: 256px;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: 5px;
+
+}
+.listtext{
+    display: flex;
+    margin-right: 93px;
+}
+
+.listtext a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    width: 140px;
+    line-height: 100px;
+    
+    color: #4E4D4D;
+
+}
+
+.material-symbols-outlined{
+    text-align: center;
+    line-height: 100px;
+    width: 80px;
+}
+
+
+.listtext>a:hover{
+    background-color: #5e5e5e;
+    color: #E0E0E0;
+}
+
+
+/* ====================== banner ==================== */
+.banner{
+    background-image: url(../img/bn.jpg);
+    width: 100%;
+    height: 577px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.banner h1{
+    font-family: 'Noto Serif TC';
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 7px #4E4D4D;
+
+    position: absolute;
+    width: 470px;
+    height: 57px;
+    left: calc(50% - 447px/2 + 23.5px);
+    top: 423px;   
+}
+
+/* ====================== Article ======================= */
+
+.article{
+    height: 1246px;
+}
+
+.article .title img{
+    display: block;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.main{
+    display: flex;
+    height: 900px;
+
+    margin: 0 auto;
+
+}
+
+.main h3{
+    margin-top: 107px;
+    padding-left: 408px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.15em;    
+}
+
+.main p{
+    margin-left: 323px;
+    margin-top: 123px;
+    width: 493px;
+    height: 685px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: .2em;
+}
+
+.pic{
+    width: 739px;
+    height: 685px;
+    margin-left: 84px;
+    margin-top: 100px;
+
+    display: flex;
+}
+
+li .pic{
+    display: block;  
+}
+
+.pic01{
+    padding-top: 164px;
+    padding-right: 27px;
+}
+
+.pic02{
+    padding-bottom: 164px;
+}
+/*==================== section ==================== */
+
+.section{
+    width: 100%;
+    height: 457px;
+}
+
+/* =========================footer========================= */
+
+.footer{
+    background: #EEEEEE;
+    width: auto;
+    height: 242px;
+    line-height: 26px;
+
+    display: flex;
+}
+
+.footerimg{
+    margin-left: 55px;
+    margin-top: 42px;
+    margin-right: 91px;
+}
+
+.shop{
+
+    text-align: center;
+    font-family: Arial;
+    color: #4E4D4D;
+   
+}
+
+.shop p{
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 48px;
+}
+
+.shop a{
+    text-decoration: none;
+    color: #666666;
+    line-height: 30px;
+     
+}
+
+.suppor{
+    text-align: center;
+    font-family: Arial;
+    color: #4E4D4D;
+    margin-left: 300px;
+}
+
+.suppor p{
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 48px;
+}
+
+.suppor a{
+    text-decoration: none;
+    color: #666666;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+/* flower */
+
+.follow{
+    width: 350px;
+    margin-left: 300px;
+    margin-top: 48px;
+}
+
+.follow span{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Arial;
+    color: #4E4D4D;
+    margin-bottom: 32px;
+}
+
+.follow p{
+    color: #666666;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+
+.copyright{
+    display: block;
+    background-color: #E0E0E0;
+    text-align: center;
+    line-height: 43px;
+}

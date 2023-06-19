@@ -1,0 +1,317 @@
+@import url("reset.css");
+
+body{
+    background-color: white;
+    font-size:: 16px;
+    
+}
+
+/* header開始 */
+
+header{
+    /* border: 1px solid black; */
+    background-color: white;
+    height: 100px;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > img{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+
+header .logo{
+    background-size: contain;
+    margin-left: 30px;
+    position: relative; 
+    overflow: hidden;
+}
+
+header ul{
+    display: flex;
+    margin-top: 40px;
+    margin-right: 200px;
+
+}
+
+header a{
+    padding: 10px 10px;
+    margin-right: 66px;
+    text-decoration: none;
+    color: black; 
+}
+
+.material-symbols-outlined{
+    margin-right: 60px;
+
+}
+
+/* ====================== banner ==================== */
+.bn{
+    background-image: url(../img/product_b.jpg);
+    width: 100%;
+    height: 517px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/* -----------------Wrapper----------------- */
+
+.wrap{
+    width: 1920px;
+    height: 1586px;
+    background-color: #fff;
+}
+
+.breadcrumb{
+    margin-top: 26px;
+    /* background-color: gainsboro; */
+    box-sizing: border-box;
+    width: 800px;
+    height: 106px;
+    
+}
+
+.cd-breadcrumb{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-left: 200px;
+}
+
+.cd-breadcrumb a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+/* -----------左側選單-------------- */
+
+.menuout{
+    width: 1920px;
+    height: 1246px;
+    position: relative;
+}
+
+.menu{
+    /* margin-top: 201px; */
+    margin-left: 216px;
+    width: 222px;
+    height: 304px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.12em;
+}
+
+.menu ul{
+    border: 1px solid red;
+
+}
+.menu li a{
+    text-decoration: none;
+    color: #000000;   
+}   
+.menu li a:first-child{
+   text-decoration: underline;
+} 
+.menu li p{
+    margin-left: 45px;
+    line-height: 30px;
+    color: #4E4D4D;
+    
+}
+
+.menulist:last-child{
+    margin-bottom: 47px;
+}
+
+.menu .scroll{
+    
+    /* margin-left: 216px; */
+}
+/* ----------- section ------------ */
+
+.section{
+    /* width: 1007px;
+    height: 1138px; */
+    border: 1px solid rebeccapurple;
+    position: absolute;
+    top: -19px;
+    right: 420px; 
+}
+.section ul{
+    width: 1007px;
+    height: 1138px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sectionlist li{
+    width: 315px;
+    height: 484px;
+    text-align: center;
+}
+
+.sectionlist li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.105em;
+    color: #747474;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sectionlist li p{
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.105em;
+    margin-top: 15px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #4E4D4D;
+}
+
+.sectionlist ul li img{
+    margin-bottom: 15px;
+}
+
+.sectionlist li span{
+ transform: translate(150px,-466px);
+ font-size: 40px;
+ text-shadow: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================footer========================= */
+
+.footer{
+    background: #EEEEEE;
+    width: auto;
+    height: 242px;
+    line-height: 26px;
+
+    display: flex;
+}
+
+.footerimg{
+    margin-left: 55px;
+    margin-top: 42px;
+    margin-right: 91px;
+}
+
+.shop{
+
+    text-align: center;
+    font-family: Arial;
+    color: #4E4D4D;
+   
+}
+
+.shop p{
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 48px;
+}
+
+.shop a{
+    text-decoration: none;
+    color: #666666;
+    line-height: 30px;
+     
+}
+
+.suppor{
+    text-align: center;
+    font-family: Arial;
+    color: #4E4D4D;
+    margin-left: 300px;
+}
+
+.suppor p{
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 48px;
+}
+
+.suppor a{
+    text-decoration: none;
+    color: #666666;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+/* flower */
+
+.follow{
+    width: 350px;
+    margin-left: 300px;
+    margin-top: 48px;
+}
+
+.follow span{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Arial;
+    color: #4E4D4D;
+    margin-bottom: 32px;
+}
+
+.follow p{
+    color: #666666;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+
+.copyright{
+    display: block;
+    background-color: #E0E0E0;
+    text-align: center;
+    line-height: 43px;
+}
