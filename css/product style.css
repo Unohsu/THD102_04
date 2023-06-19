@@ -194,9 +194,9 @@ body{
 }
 
 .sectionlist li span{
- transform: translate(150px,-466px);
- font-size: 40px;
- text-shadow: #ffffff;
+    transform: translate(125px,-500px);
+    font-size: 40px;
+    text-shadow: #ffffff;
 }
 
 
