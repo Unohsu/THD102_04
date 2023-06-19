@@ -1,0 +1,345 @@
+@import url("reset.css");
+
+body{
+    background-color: FFFFFF;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header開始 */
+.header{
+    /* border: 1px solid black; */
+    background-color: white;
+    width: 1920px;
+    height: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header .logo img{
+    width: 256px;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: 5px;
+
+}
+.listtext{
+    display: flex;
+    margin-right: 93px;
+}
+
+.listtext a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    width: 140px;
+    line-height: 100px;
+    
+    color: #4E4D4D;
+
+}
+
+.material-symbols-outlined{
+    text-align: center;
+    line-height: 100px;
+    width: 80px;
+}
+
+
+.listtext>a:hover{
+    background-color: #5e5e5e;
+    color: #E0E0E0;
+}
+
+
+/* ====================== banner ==================== */
+.banner{
+    width: 1920px;
+    height: 900px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* ====================== section ==================== */
+    .wrap{
+        width: 1920px;
+        height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+  /*  橫式區塊第一塊  */
+
+    .section01{  
+        width: 1920px;
+        height: 770px;
+        margin-right: 500px;
+        margin-top: 93px;
+        position: relative;
+        display: flex;
+    }
+    .main01{
+        margin-left: 200px;
+    }
+
+    .main01 h6{
+        font-size: 20px;
+        font-weight: 700;
+        width: 360px;
+        height: 30px;
+        margin-top: 50px;
+    }
+    .main01 p{
+        font-size: 16px;
+        width: 360px;
+        height: 78px;
+        margin-top: 40px;
+        letter-spacing: .01em;
+        line-height: 26px;
+    }
+    .moreCTA img{
+        position: absolute;
+        bottom: 185px;
+        left: 724px;
+    }
+    /* ------------------------- */
+
+    .outline02{
+        margin-left: 500px;
+    }
+
+    .main02 h6{
+        font-size: 20px;
+        font-weight: 700;
+        width: 360px;
+        height: 30px;
+        margin-top: 50px;
+    }
+    .main02 p{
+        font-size: 16px;
+        width: 360px;
+        height: 78px;
+        margin-top: 40px;
+        letter-spacing: .01em;
+        line-height: 26px;
+    }
+    .outline02 .moreCTA>img{
+        position: absolute;
+        bottom: 185px;
+        left: 1600px;
+    }
+
+    /* 橫式區塊第二塊 */
+
+    .section02{
+        width: 1920px;
+        height: 770px;
+        margin-right: 500px;
+        margin-top: 93px;
+        position: relative;
+        display: flex;
+    }
+
+    .main03{
+        margin-left: 200px;
+        margin-right: 500px;
+    }
+
+    .main03 h6{
+        font-size: 20px;
+        font-weight: 700;
+        width: 360px;
+        height: 30px;
+        margin-top: 50px;
+    }
+    .main03 p{
+        font-size: 16px;
+        width: 360px;
+        height: 78px;
+        margin-top: 40px;
+        letter-spacing: .01em;
+        line-height: 26px;
+    }
+    .moreCTA img{
+        position: absolute;
+        bottom: 185px;
+        left: 724px;
+    }
+    /* ------------------------- */
+
+
+
+    .main04 h6{
+        font-size: 20px;
+        font-weight: 700;
+        width: 360px;
+        height: 30px;
+        margin-top: 50px;
+    }
+    .main04 p{
+        font-size: 16px;
+        width: 360px;
+        height: 78px;
+        margin-top: 40px;
+        letter-spacing: .01em;
+        line-height: 26px;
+    }
+    .outline04 .moreCTA>img{
+        position: absolute;
+        bottom: 185px;
+        left: 1600px;
+    }
+
+      /* 橫式區塊第三塊 */
+
+      .section03{
+        width: 1920px;
+        height: 770px;
+        margin-top: 93px;
+        position: relative;
+        display: flex;
+    }
+
+    .main05{
+        margin-left: 200px;
+        margin-right: 500px;
+    }
+
+    .main05 h6{
+        font-size: 20px;
+        font-weight: 700;
+        width: 360px;
+        height: 30px;
+        margin-top: 50px;
+    }
+    .main05 p{
+        font-size: 16px;
+        width: 360px;
+        height: 78px;
+        margin-top: 40px;
+        letter-spacing: .01em;
+        line-height: 26px;
+    }
+    .moreCTA img{
+        position: absolute;
+        bottom: 185px;
+        left: 724px;
+    }
+    /* ------------------------- */
+
+
+
+    .main06 h6{
+        font-size: 20px;
+        font-weight: 700;
+        width: 360px;
+        height: 30px;
+        margin-top: 50px;
+    }
+    .main06 p{
+        font-size: 16px;
+        width: 360px;
+        height: 78px;
+        margin-top: 40px;
+        letter-spacing: .01em;
+        line-height: 26px;
+    }
+    .outline06 .moreCTA>img{
+        position: absolute;
+        bottom: 185px;
+        left: 1600px;
+    }
+
+
+
+
+/* =========================footer========================= */
+
+.footer{
+    background: #EEEEEE;
+    width: 1920px;
+    height: 242px;
+    line-height: 26px;
+
+    display: flex;
+}
+
+.footerimg{
+    margin-left: 55px;
+    margin-top: 42px;
+    margin-right: 91px;
+}
+
+.shop{
+
+    text-align: center;
+    font-family: Arial;
+    color: #4E4D4D;
+   
+}
+
+.shop p{
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 48px;
+}
+
+.shop a{
+    text-decoration: none;
+    color: #666666;
+    line-height: 30px;
+     
+}
+
+.suppor{
+    text-align: center;
+    font-family: Arial;
+    color: #4E4D4D;
+    margin-left: 300px;
+}
+
+.suppor p{
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 48px;
+}
+
+.suppor a{
+    text-decoration: none;
+    color: #666666;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+/* flower */
+
+.follow{
+    width: 350px;
+    margin-left: 300px;
+    margin-top: 48px;
+}
+
+.follow span{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Arial;
+    color: #4E4D4D;
+    margin-bottom: 32px;
+}
+
+.follow p{
+    color: #666666;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+
+.copyright{
+    width: 1920px;
+    background-color: #E0E0E0;
+    text-align: center;
+    line-height: 43px;
+}
