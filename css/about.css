@@ -8,10 +8,8 @@ body{
 
 /* header開始 */
 .header{
-    /* border: 1px solid black; */
+    position: ;
     background-color: white;
-    width: 1920px;
-    height: 100px;
     height: 100px;
     display: flex;
     justify-content: space-between;
