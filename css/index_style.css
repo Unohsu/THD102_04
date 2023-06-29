@@ -1,37 +1,38 @@
 @import url("reset.css");
 
-body{
+body {
     background-color: white;
 }
 
 /* header開始 */
 
-.header{
+.header {
     display: flex;
     background-color: white;
     height: 100px;
     justify-content: space-between;
     position: relative;
 }
-.headerout{
+
+.headerout {
     display: flex;
     width: 1200px;
     margin: 0 auto;
     justify-content: space-between
 }
 
-.header .logo img{
+.header .logo img {
     height: 80px;
     margin-left: 80px;
     margin-top: 10px;
 }
 
-.listtext{
+.listtext {
     /* width: 470px; */
     display: flex;
 }
 
-.listtext a{
+.listtext a {
     text-decoration: none;
     font-family: Arial;
     text-align: center;
@@ -40,77 +41,89 @@ body{
     line-height: 100px;
     color: #4E4D4D;
 }
-.material-symbols-outlined{
+
+.material-symbols-outlined {
     text-align: center;
     line-height: 100px;
-    width: 100px;
+    width: 80px;
 }
 
-.listtext>a:hover{
+.listtext>a:hover {
     background-color: #5e5e5e;
     color: #E0E0E0;
 }
 
 /* --------------------- Grid -------------------- */
-.container{
-   padding: 10px;
-   position: relative;
-   /* overflow: hidden; */
+.container {
+    padding: 10px;
+    position: relative;
+    /* overflow: hidden; */
 }
-.container > img{
+
+.container>img {
     height: auto;
     vertical-align: middle;
     display: inline-block;
 }
-.container > div{
+
+.container>div {
     display: flex;
     justify-content: baseline;
     align-items: center;
 }
 
-.container > div >img{
+.container>div>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
 }
-.container{
+
+.container {
     display: grid;
     grid-gap: 35px;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: 300px;
     grid-auto-flow: dense;
 }
-.container .box1{
+
+.container .box1 {
     grid-row: span 2;
 }
-.container .box2{
+
+.container .box2 {
     grid-row: span 3;
 }
-.container .box3{
+
+.container .box3 {
     grid-row: span 1;
 }
-.container .box4{
+
+.container .box4 {
     grid-row: span 2;
     grid-column: span 2;
 }
-.container .box5{
+
+.container .box5 {
     grid-row: span 2;
     grid-column: span 1;
 }
-.container .box6{
+
+.container .box6 {
     grid-row: span 1;
 }
-.container .box7{
+
+.container .box7 {
     grid-row: span 1;
     grid-column: span 1;
 }
-.container .box8{
-    grid-row: span ;
-    grid-column: span ;
+
+.container .box8 {
+    grid-row: span;
+    grid-column: span;
 }
 
-.opacity{
+.opacity {
     height: 188px;
     position: absolute;
     bottom: 0;
@@ -124,64 +137,71 @@ body{
 
 /* ================= loop ================= */
 
-.loopout{
-    /* overflow: hidden; */
-}
-.loop{
-    width: 1200px;
-    height: 0;
+.loop {
+    /* background-color: aqua; */
+    /* width: 1200px; */
+    width: 100%;
+    height: 138px;
+    margin: 60px auto 0;
     position: relative;
+    overflow: hidden;
 }
 
-.logopic{
-    margin-top: 60px;
-}
-.loop img{
-    animation-direction: alternate;
-    animation: loop 50s linear backwards;
+.logopic>img {
+    height: 100%;
+    /* animation-direction: alternate; */
+    /* animation: loop 3s linear 1 forwards; */
+    animation: loop 30s linear infinite;
     position: absolute;
-    right: -150px;
-    
-
+    right: 0%;
 }
-@keyframes loop{
-    0%{
-        right: -150px;
+
+@keyframes loop {
+    0% {
+        right: 0%;
     }
-    100%{
-        right: 1200px;
+
+    50%{
+        right: -20%;
+    }
+
+    100% {
+        right: 0%;
     }
 }
 
 
 /* ======================== Article ======================== */
 
-.articleout{
+.articleout {
     background-image: url(../img/index.bg.jpg);
     margin-top: 300px;
     margin-bottom: 100px;
 
 }
-.articleall{
+
+.articleall {
     margin-left: 100px;
     width: 1200px;
     display: flex;
 }
-.articleall .text{
+
+.articleall .text {
     width: 500px;
     height: 350px;
     margin-left: 150px;
     margin-top: 100px;
 }
-.text h2{
+
+.text h2 {
     color: #000;
     font-size: 50px;
     font-family: Noto Sans TC;
     line-height: 40px;
     letter-spacing: 7.5px;
-    }
+}
 
-.text p{
+.text p {
     margin-top: 50px;
     width: 481px;
     height: 151px;
@@ -193,7 +213,7 @@ body{
     line-height: 40px;
 }
 
-.text span{
+.text span {
     margin-left: 410px;
     font-size: 55px;
     color: #5e5e5e;
@@ -203,13 +223,14 @@ body{
 /* ================== select ================== */
 
 
-.select{}
+.select {}
 
-.select .block{
+.select .block {
     margin: 0 auto;
     overflow: hidden;
 }
-.blocktitle h2{
+
+.blocktitle h2 {
     text-align: center;
     line-height: 50px;
     width: 1200px;
@@ -218,18 +239,19 @@ body{
     font-weight: 700px;
     font-family: Noto Sans TC;
     letter-spacing: 15px;
-        
+
     margin: 0 auto;
 }
 
-.block ul{
+.block ul {
     width: 1900px;
     margin-top: 100px;
     display: flex;
     overflow: hidden;
+    position: relative;
 }
 
-.block li{
+.block li {
     width: 360px;
     height: 477px;
     box-sizing: border-box;
@@ -238,33 +260,34 @@ body{
     flex-shrink: 0;
 }
 
-li:last-child{
+li:last-child {
     margin-right: 0;
 }
-.block li img{
+
+.info img {
     display: block;
     width: 100%;
     opacity: .5;
-    position: relative;
 }
 
-.block li a{
-    position: absolute;
-    top: 50%;left: 50%;
+.info li p {
+    /* position: absolute; */
+    top: 150px;
+    left: 150px;
     transform: translateX(-50%);
-   
+
 }
-.block li img:hover{
+
+.block li img:hover {
     opacity: 1;
-    transition: 2s
-;
+    transition: 2s;
 }
 
 /* ======================== main ======================== */
 
-.main{}
+.main {}
 
-.mainpic{
+.mainpic {
     width: 1400px;
     height: 829px;
     margin: 0 auto;
@@ -273,12 +296,14 @@ li:last-child{
     justify-content: center;
 }
 
-.mainpic a{
+.mainpic a {
     position: relative;
 }
-.mainpic p{
+
+.mainpic p {
     position: absolute;
-    top: 50%;left: 50%;
+    top: 50%;
+    left: 50%;
     transform: translateX(-50%);
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
@@ -289,12 +314,12 @@ li:last-child{
 
 }
 
-.mainpic img{
+.mainpic img {
     margin-top: 21px;
     margin-left: 21px;
 }
 
-.maintext h2{
+.maintext h2 {
     margin-top: 100px;
     margin-bottom: 60px;
     font-family: Arial;
@@ -307,13 +332,13 @@ li:last-child{
 
 /* ======================== NEWS ======================== */
 
-.news{
+.news {
     /* border: 1px solid red; */
     margin-top: 76px;
     height: 747px;
 }
 
-.news h2{
+.news h2 {
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -322,14 +347,15 @@ li:last-child{
     margin-bottom: 80px;
 }
 
-.newsout1{
+.newsout1 {
     border-top: 1px solid #666666;
     width: 1300px;
     height: 166px;
     margin: 0 auto;
     border-bottom: 1px solid #666666;
 }
-.newstext1{
+
+.newstext1 {
     padding-top: 75px;
     margin: 0 auto;
     text-align: center;
@@ -337,7 +363,7 @@ li:last-child{
     justify-content: space-evenly
 }
 
-.newsout2{
+.newsout2 {
     width: 1300px;
     height: 166px;
     margin: 0 auto;
@@ -345,7 +371,7 @@ li:last-child{
     margin-bottom: 200px;
 }
 
-.newstext2{
+.newstext2 {
     padding-top: 75px;
     margin: 0 auto;
     text-align: center;
@@ -353,7 +379,7 @@ li:last-child{
     justify-content: space-evenly
 }
 
-.newstext1 p:nth-child(2){
+.newstext1 p:nth-child(2) {
     background-color: #818181;
     display: block;
     width: 80px;
@@ -362,7 +388,7 @@ li:last-child{
     color: #EEEEEE;
 }
 
-.newstext2 p:nth-child(2){
+.newstext2 p:nth-child(2) {
     background-color: #818181;
     display: block;
     width: 80px;
@@ -374,7 +400,7 @@ li:last-child{
 /* ======================== contant ======================== */
 
 
-.contant{
+.contant {
     background-image: url(../img/index.bg.jpg);
     height: 773px;
     width: 1920px;
@@ -383,8 +409,8 @@ li:last-child{
     display: flex;
 }
 
-.contantleft h2{
-    margin-top: 152px; ;
+.contantleft h2 {
+    margin-top: 152px;
     width: 538px;
     height: 124px;
 
@@ -393,35 +419,35 @@ li:last-child{
     line-height: 62px;
     letter-spacing: 0.11em;
     color: #000000;
-    
+
 }
 
-.contantleft{
+.contantleft {
     width: 515px;
     height: 514px;
     margin-left: 321px;
 }
 
-.contantleft p{
+.contantleft p {
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     color: #000000;
 }
 
-.googlemap .map{
+.googlemap .map {
     margin-left: 160px;
     margin-top: 70px;
     width: 536px;
     height: 515px;
 
 }
-    
+
 
 
 /* =========================footer========================= */
 
-.footer{
+.footer {
     background: #EEEEEE;
     width: auto;
     height: 242px;
@@ -430,49 +456,49 @@ li:last-child{
     display: flex;
 }
 
-.footerimg{
+.footerimg {
     margin-left: 55px;
     margin-top: 42px;
     margin-right: 91px;
 }
 
-.shop{
+.shop {
 
     text-align: center;
     font-family: Arial;
     color: #4E4D4D;
-   
+
 }
 
-.shop p{
+.shop p {
     font-weight: 700;
     font-size: 20px;
     padding-bottom: 10px;
     margin-top: 48px;
 }
 
-.shop a{
+.shop a {
     text-decoration: none;
     color: #666666;
     line-height: 30px;
-     
+
 }
 
-.suppor{
+.suppor {
     text-align: center;
     font-family: Arial;
     color: #4E4D4D;
-    margin-left: 300px;
+    margin-left: 150px;
 }
 
-.suppor p{
+.suppor p {
     font-weight: 700;
     font-size: 20px;
     padding-bottom: 10px;
     margin-top: 48px;
 }
 
-.suppor a{
+.suppor a {
     text-decoration: none;
     color: #666666;
     line-height: 28px;
@@ -481,13 +507,13 @@ li:last-child{
 
 /* flower */
 
-.follow{
+.follow {
     width: 350px;
-    margin-left: 300px;
+    margin-left: 150px;
     margin-top: 48px;
 }
 
-.follow span{
+.follow span {
     font-weight: 700;
     font-size: 20px;
     font-family: Arial;
@@ -495,14 +521,20 @@ li:last-child{
     margin-bottom: 32px;
 }
 
-.follow p{
+.follow p {
     color: #666666;
     line-height: 28px;
     letter-spacing: 2px;
 }
 
+.follow .icon {}
 
-.copyright{
+.followup {
+    margin-top: 70px;
+}
+
+
+.copyright {
     display: block;
     background-color: #E0E0E0;
     text-align: center;
