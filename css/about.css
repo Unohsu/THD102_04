@@ -216,11 +216,48 @@ li .pic {
 
 }
 
+/* ================about img================= */
+
+.infopic ul{
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  /* margin-bottom: 50px; */
+  /* outline: 1px solid #666666; */
+  display: flex;
+}
+.infopic li{
+  background-size: cover;
+  background-position: center center;
+  transition: .5s;
+  filter: grayscale(1);
+}
+
+.item1{
+  background-image: url(/img/about-item1.jpg);
+    flex-grow: 1;
+}
+.item2{
+  background-image: url(/img/about-item2.jpg);
+    flex-grow: 2;
+}
+.item3{
+  background-image: url(/img/about-item3.jpg);
+    flex-grow: 2;
+}
+li:hover{
+  flex-grow: 3;
+  filter: grayscale(0);
+
+}
+
+
+
 
 /* =========================footer========================= */
 
 .footer {
-  background: #eeeeee;
+  background: #EEEEEE;
   width: auto;
   height: 242px;
   line-height: 26px;
@@ -235,9 +272,11 @@ li .pic {
 }
 
 .shop {
+
   text-align: center;
   font-family: Arial;
-  color: #4e4d4d;
+  color: #4E4D4D;
+
 }
 
 .shop p {
@@ -251,13 +290,14 @@ li .pic {
   text-decoration: none;
   color: #666666;
   line-height: 30px;
+
 }
 
 .suppor {
   text-align: center;
   font-family: Arial;
-  color: #4e4d4d;
-  margin-left: 300px;
+  color: #4E4D4D;
+  margin-left: 150px;
 }
 
 .suppor p {
@@ -278,7 +318,7 @@ li .pic {
 
 .follow {
   width: 350px;
-  margin-left: 300px;
+  margin-left: 150px;
   margin-top: 48px;
 }
 
@@ -286,8 +326,8 @@ li .pic {
   font-weight: 700;
   font-size: 20px;
   font-family: Arial;
-  color: #4e4d4d;
-  margin-bottom: 32px;
+  color: #4E4D4D;
+  margin-bottom: 10px;
 }
 
 .follow p {
@@ -296,9 +336,47 @@ li .pic {
   letter-spacing: 2px;
 }
 
+.icon {
+  font-size: 25px;
+  margin-top: 10px;
+  
+}
+.icon a{
+  padding-right: 5px;
+}
+
+.followup {
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+.tel p{
+  font-size: 16px;
+}
+
+.button{
+align-items: center;
+padding: 4px 15px;
+font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+border-radius: 6px;
+border: none;
+cursor: pointer;
+
+background: #6E6D70;
+box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+color: #DFDEDF;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.button:focus {
+box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+outline: 0;
+}
 .copyright {
   display: block;
-  background-color: #e0e0e0;
+  background-color: #E0E0E0;
   text-align: center;
   line-height: 43px;
 }

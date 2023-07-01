@@ -11,53 +11,53 @@ body{
 /* header開始 */
 
 
-.header{
-    /* border: 1px solid black; */
-    background-color: white;
-    width: 1920px;
-    height: 100px;
-    height: 100px;
+.header {
     display: flex;
+    background-color: white;
+    height: 100px;
     justify-content: space-between;
     position: relative;
-}
-
-.header .logo img{
-    width: 256px;
-    height: 100px;
-    margin-left: 80px;
-    margin-top: 5px;
-
-}
-.listtext{
+  }
+  
+  .headerout {
     display: flex;
-    margin-right: 93px;
-}
-
-.listtext a{
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  
+  .header .logo img {
+    height: 80px;
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+  
+  .listtext {
+    /* width: 470px; */
+    display: flex;
+  }
+  
+  .listtext a {
     text-decoration: none;
+    font-family: Arial;
     text-align: center;
     font-size: 18px;
-    width: 140px;
+    width: 100px;
     line-height: 100px;
-    
-    color: #4E4D4D;
-
-}
-
-.material-symbols-outlined{
+    color: #4e4d4d;
+  }
+  
+  .material-symbols-outlined {
     text-align: center;
     line-height: 100px;
     width: 80px;
-}
-
-
-.listtext>a:hover{
+  }
+  
+  .listtext > a:hover {
     background-color: #5e5e5e;
-    color: #E0E0E0;
-}
-
-
+    color: #e0e0e0;
+  }
+  
 /* ====================== banner ==================== */
 .bn{
     background-image: url(../img/product_b.jpg);
@@ -71,7 +71,6 @@ body{
 /* -----------------Wrapper----------------- */
 
 .wrap{
-    width: 1920px;
     height: 1586px;
     background-color: #fff;
 }
@@ -104,7 +103,7 @@ body{
 /* -----------左側選單-------------- */
 
 .menuout{
-    width: 1920px;
+    /* width: 1920px; */
     height: 1246px;
     position: relative;
 }
