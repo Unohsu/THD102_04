@@ -18,13 +18,14 @@
     <!-- 網頁 icon -->
     <link rel="icon" href="./img/favicon-16x16.png" />
     <link href="css/product style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div class="header">
       <div class="headerout">
         <!-- 左側logo -->
         <div class="logo">
-          <a href="./index.html"><img src="img/logo.svg" alt="headerlogo" /></a>
+          <a href="./index.html"><img src="img/logo.gif" alt="headerlogo" /></a>
         </div>
         <!-- 右側選單 -->
         <nav class="headerlister">
@@ -44,85 +45,157 @@
     <div class="bn"></div>
 
     <!------------Wrapper------------------>
-    <div class="wrap">
+    
       <!-- --------上方 麵包屑-------- -->
-      <nav class="breadcrumb">
-        <ol class="cd-breadcrumb">
-          <li><a href="#0">HOME /</a></li>
-          <li><a href="#0">NEW ARRIVALS / </a></li>
-          <li><a href="#0">All PRODUCTS</a></li>
-        </ol>
-      </nav>
-      <!-- --------左側選單-------- -->
-      <div class="menuout">
-        <div class="menu">
-          <ul>
-            <li>
-              <a href="#">NEW ARRIVALS</a>
-              <div class="menulist">
-                <p>All Products<br /></p>
-                <p>Clothing<br /></p>
-                <p>Shoes<br /></p>
-                <p>Shorts<br /></p>
-              </div>
-            </li>
-
-            <li><a href="#">TOP</a></li>
-            <li><a href="#">BOTTOM</a></li>
-            <li><a href="#">COAT</a></li>
-          </ul>
+      <nav class="breadcrumbList">
+        <div class="container">
+          <ol class="breadcrumb">
+            <li><a href="#0">首頁</a></li>
+            <li><a href="#0">新品</a></li>
+            <li><a href="#0">全部商品</a></li>
+          </ol>
         </div>
-        <!-- --------左側選單-------- -->
-        <div class="section">
-          <div class="sectionlist">
-            <ul>
-              <!-- 01 -->
-              <li>
-                <img src="./img/menulist-1.jpg" alt="夏威夷01" />
-                <a href="./productdtail.html">Aloha Shirts 夏威夷衫</a>
-                <p>NT$890</p>
-                <span class="material-symbols-outlined">heart_plus</span>
-              </li>
-              <!-- 02 -->
-              <li>
-                <img src="./img/menulist-2.jpg" alt="夏威夷01" />
-                <a href="./productdtail.html">Aloha Shirts 夏威夷衫</a>
-                <p>NT$890</p>
-                <span class="material-symbols-outlined">heart_plus</span>
-              </li>
-              <!-- 03 -->
-              <li>
-                <img src="./img/menulist-3.jpg" alt="夏威夷01" />
-                <a href="./productdtail.html">Aloha Shirts 夏威夷衫</a>
-                <p>NT$890</p>
-                <span class="material-symbols-outlined">heart_plus</span>
-              </li>
-              <!-- 04 -->
-              <li>
-                <img src="./img/menulist-4.jpg" alt="夏威夷01" />
-                <a href="./productdtail.html">Aloha Shirts 夏威夷衫</a>
-                <p>NT$890</p>
-                <span class="material-symbols-outlined">heart_plus</span>
-              </li>
-              <!-- 05 -->
-              <li>
-                <img src="./img/menulist-5.jpg" alt="夏威夷01" />
-                <a href="./productdtail.html">Aloha Shirts 夏威夷衫</a>
-                <p>NT$890</p>
-                <span class="material-symbols-outlined">heart_plus</span>
-              </li>
-              <!-- 06 -->
-              <li>
-                <img src="./img/menulist-6.jpg" alt="夏威夷01" />
-                <a href="./productdtail.html">Aloha Shirts 夏威夷衫</a>
-                <p>NT$890</p>
-                <span class="material-symbols-outlined">heart_plus</span>
-              </li>
-            </ul>
-          </div>
+      </nav>
+
+      <div class="block-inner">
+        <div class="pd-box">
+          <div class="left-box"></div>
+          <div class="right-box"></div>
         </div>
       </div>
+    <div class="block-inner">
+      <!-- --------側邊選單-------- -->
+      <div class="pd-box">
+        <div class="left-box">
+          <ul class="leftList">
+            <li>最新上市
+            </li>
+
+            <li class="top">
+              上身TOP <i class="fa-solid fa-chevron-down" style="color: #5e5e5e;"></i>
+
+
+              <p>大學Tee</p>
+              <p>襯衫</p>
+              <p>POLO衫</p>
+            </li>
+
+            <li class="bottom">下身BOTTOM</li>
+
+            <li>外套</li>
+
+            <li>配件</li>
+          </ul>
+        </div>
       
+      <!-- --------左側選單-------- -->
+          <div class="right-box">
+            
+            <div class="right-box-pdlist">
+              <!-- pd-start -->
+                  <div class="product-item">
+                      <a href="./productdtail.html" target="_blank">
+                        <div class="box-img-wrapper">
+                          <div class="box-img">
+                            <img src="./img/menulist-1.jpg" alt="夏威夷01" />
+                            <div class="btn-add-to-card"><p>加入購物車</p></div>
+                          </div>
+                        </div>
+                        <div class="info-box">
+                          <p>Aloha Shirts 夏威夷衫</p>
+                          <p>NT$890</p>
+                          </h3>
+                        </div>
+                      </a>
+                  </div>
+
+                  <div class="product-item">
+                      <a href="./productdtail.html" target="_blank">
+                        <div class="box-img-wrapper">
+                          <div class="box-img">
+                            <img src="./img/menulist-2.jpg" alt="夏威夷01" />
+                            <div class="btn-add-to-card"><p>加入購物車</p></div>
+                          </div>
+                        </div>
+                        <div class="info-box">
+                          <p>Aloha Shirts 夏威夷衫</p>
+                          <p>NT$890</p>
+                          </h3>
+                        </div>
+                      </a>
+                  </div>
+
+                  <div class="product-item">
+                      <a href="./productdtail.html" target="_blank">
+                        <div class="box-img-wrapper">
+                          <div class="box-img">
+                            <img src="./img/menulist-3.jpg" alt="夏威夷01" />
+                            <div class="btn-add-to-card"><p>加入購物車</p></div>
+                          </div>
+                        </div>
+                        <div class="info-box">
+                          <p>Aloha Shirts 夏威夷衫</p>
+                          <p>NT$890</p>
+                          </h3>
+                        </div>
+                      </a>
+                  </div>
+
+                  <div class="product-item">
+                      <a href="./productdtail.html" target="_blank">
+                        <div class="box-img-wrapper">
+                          <div class="box-img">
+                            <img src="./img/menulist-4.jpg" alt="夏威夷01" />
+                            <div class="btn-add-to-card"><p>加入購物車</p></div>
+                          </div>
+                        </div>
+                        <div class="info-box">
+                          <p>Aloha Shirts 夏威夷衫</p>
+                          <p>NT$890</p>
+                          </h3>
+                        </div>
+                      </a>
+                  </div>
+
+                  <div class="product-item">
+                    <a href="./productdtail.html" target="_blank">
+                      <div class="box-img-wrapper">
+                        <div class="box-img">
+                          <img src="./img/menulist-5.jpg" alt="夏威夷01" />
+                          <div class="btn-add-to-card"><p>加入購物車</p></div>
+                        </div>
+                      </div>
+                      <div class="info-box">
+                        <p>Aloha Shirts 夏威夷衫</p>
+                        <p>NT$890</p>
+                        </h3>
+                      </div>
+                    </a>
+                  </div>
+
+                <div class="product-item">
+                  <a href="./productdtail.html" target="_blank">
+                    <div class="box-img-wrapper">
+                      <div class="box-img">
+                        <img src="./img/menulist-6.jpg" alt="夏威夷01" />
+                        <div class="btn-add-to-card"><p>加入購物車</p></div>
+                      </div>
+                    </div>
+                    <div class="info-box">
+                      <p>Aloha Shirts 夏威夷衫</p>
+                      <p>NT$890</p>
+                      </h3>
+                    </div>
+                  </a>
+              </div>
+
+
+            </div>
+
+          </div>
+        
+
+       </div> 
     </div>
 
     <!------------------footer------------------>
@@ -130,23 +203,19 @@
       <div class="footerimg">
         <img src="./img/memo.png" alt="footerlogo" />
       </div>
-
       <!-- shop -->
-
       <div class="shop">
-        <p>SHOP</p>
+        <p>產品</p>
         <ul>
-          <li><a href="#">TOP</a></li>
-          <li><a href="#">SHIRT</a></li>
-          <li><a href="#">SOCKS</a></li>
-          <li><a href="#">OUTERWEAR</a></li>
+          <li><a href="#">最新上市</a></li>
+          <li><a href="#">上身</a></li>
+          <li><a href="#">飾品配件</a></li>
+          <li><a href="#">下身</a></li>
         </ul>
       </div>
-
       <!-- suppor -->
-
       <div class="suppor">
-        <p>SUPPOR</p>
+        <p>服務</p>
         <ul>
           <li><a href="#">關於我們</a></li>
           <li><a href="#">客服FAQ</a></li>
@@ -154,18 +223,35 @@
           <li><a href="#">服務條款</a></li>
         </ul>
       </div>
-
       <!-- followerus -->
-
       <div class="follow">
         <span>FOLLOW US</span>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
 
-        <p>JOIN OUR NEWSLETTER</p>
-        <input type="text" />
+        <div class="icon">
+          <a href="#"
+            ><i class="fa-brands fa-facebook" style="color: #6e6e6e"></i
+          ></a>
+          <a href="https://www.instagram.com/im_m_off/"
+            ><i class="fa-brands fa-instagram" style="color: #6e6e6e"></i
+          ></a>
+          <a href="#"
+            ><i class="fa-brands fa-twitter" style="color: #6e6e6e"></i
+          ></a>
+          <a href=""
+            ><i class="fa-brands fa-youtube" style="color: #6e6e6e"></i
+          ></a>
+        </div>
+
+        <div class="tel">
+          <p>電話：(02)2785-6789</p>
+          <p>地址：台北市中山區南京東路三段219號</p>
+        </div>
+
+        <div class="followup">
+          <p>訂閱我們</p>
+          <input placeholder="請輸入E-mail" />
+          <button class="button">發送</button>
+        </div>
       </div>
     </div>
 
