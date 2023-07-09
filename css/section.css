@@ -305,7 +305,7 @@ body {
 	margin: auto;
 	box-shadow: 0 0 15px 5px rgba(0, 0, 0, .07);
 	background-color: #fff;
-	border: 5px solid #f5f5f5
+	/* border: 5px solid #f5f5f5 */
 }
 
 .tab-container {
@@ -344,7 +344,7 @@ body {
 	position: relative;
 	display: block;
 	min-height: 100%;
-	opacity: .8
+	opacity: .8;	
 }
 
 .tab .effect .tab-text {
@@ -658,7 +658,7 @@ body {
 }
 
 .effect.effect-one h2 {
-	padding-top: 20%;
+	padding-top: 32%;
 	-webkit-transition: -webkit-transform .35s;
 	transition: transform .35s;
 	font-weight: 600;
@@ -673,15 +673,15 @@ body {
 }
 
 .effect-one .pt-1 {
-	padding-top: 10%!important
+	padding-top: 14%!important
 }
 
 .effect-one .pt-2 {
-	padding-top: 16%!important
+	padding-top: 22%!important
 }
 
 .effect-one .pt-3 {
-	padding-top: 28%!important
+	padding-top: 47%!important
 }
 
 .effect.effect-one p {
