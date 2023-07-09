@@ -27,22 +27,38 @@
         <div class="logo">
           <a href="./index.html"><img src="img/logo.gif" alt="headerlogo" /></a>
         </div>
+
         <!-- 右側選單 -->
         <nav class="headerlister">
           <div class="listtext">
-            <a href="./product.html"> 新品</a>
-            <a href="./news.html"> 最新消息</a>
-            <a href="./about.html"> 關於</a>
-            <a href="./outfit.html"> Outfit</a>
-            <span class="material-symbols-outlined">search</span>
-            <span class="material-symbols-outlined">shopping_cart</span>
-            <span class="material-symbols-outlined">account_circle</span>
+
+            <div class="showmenu">
+              <span class="material-symbols-outlined">search</span>
+              <span class="material-symbols-outlined">shopping_cart</span>
+              <span><i class="fa-solid fa-bars"></i></span>
+          
+            </div>
+
+            <ul>
+              <li><span class="material-symbols-outlined">search</span></li>
+              <li><a href="./product.html"> 新品</a></li>
+              <li><a href="./news.html"> 最新消息</a></li>
+              <li><a href="./about.html"> 關於</a></li>
+              <li><a href="./outfit.html"> Outfit</a></li>
+              <li><span class="material-symbols-outlined">shopping_cart</span></li>
+              <li><span class="material-symbols-outlined">account_circle</span></li>
+              
+            </ul>
+                    
           </div>
+          
         </nav>
+
       </div>
     </div>
     <!------------Banner------------------>
-    <div class="bn"></div>
+    <div class="bn">
+    </div>
 
     <!------------Wrapper------------------>
     
@@ -93,7 +109,32 @@
             
             <div class="right-box-pdlist">
               <!-- pd-start -->
-                  <div class="product-item">
+
+              <div class="ProductList-info clearfix">
+                <h2 class="Label">全部商品</h2>
+              </div>
+
+              <div class="ProductList-select js-productlist-select clearfix"></div>
+              <div class="select-sort js-select-sort">
+                <span>商品排序</span>
+                <ul>
+                  <!-- <li data-val="">商品排序</li>
+                  <li data-val="created_at_desc">上架時間: 由新到舊</li>
+                  <li data-val="created_at_asc">上架時間: 由舊到新</li>
+                  <li data-val="price_desc">價格: 由高至低</li>
+                  <li data-val="price_asc">價格: 由低至高</li> -->
+                </ul>
+              </div> 
+              <!-- <div class="select-limit js-select-limit">
+                <span>每頁顯示 10 個</span>
+                <ul>
+                  <li data-val="24">每頁顯示 24 個</li>
+                  <li data-val="48">每頁顯示 48 個</li>
+                  <li data-val="72">每頁顯示 72 個</li>
+                </ul>
+              </div>  -->
+              
+              <div class="product-item">
                       <a href="./productdtail.html" target="_blank">
                         <div class="box-img-wrapper">
                           <div class="box-img">
@@ -189,6 +230,17 @@
                   </a>
               </div>
 
+              <div class="text-center">
+                <ul class="ProductList-paginator pagination">
+                  <li class="ProductList-paginator-button active"><a class="Label" href="#">1</a></li>
+                  <li class="ProductList-paginator-button "><a class="Label" href="#">2</a></li>
+                  <li class="ProductList-paginator-button "><a class="Label" href="#">3</a></li>
+                  <li class="ProductList-paginator-button "><a class="Label" href="#">4</a></li>
+                  <li class="ProductList-paginator-button "><a class="Label" href="#">5</a></li>
+                  <li class="ProductList-paginator-button"><a class="Label" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>                      
+                </ul>
+              </div>
+
 
             </div>
 
@@ -202,7 +254,7 @@
     <div class="footer">
       <div class="footerimg">
         <img src="./img/memo.png" alt="footerlogo" />
-      </div>
+      </div> 
       <!-- shop -->
       <div class="shop">
         <p>產品</p>
@@ -257,11 +309,11 @@
 
     <!-- copyright -->
 
-    <div class="copyright">
+   <div class="copyright">
       <p>
-        Copyright © I′Ｍ OFF Co., Ltd. 本網站為緯育TibaMe【第85期】前端工程
+        Copyright © I′Ｍ OFF. 本網站為緯育TibaMe【第85期】前端工程
         師專業技術養成班學員作品,僅供學習、展示之用途。
       </p>
     </div>
-  </body>
+</body>
 </html>

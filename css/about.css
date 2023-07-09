@@ -719,16 +719,6 @@ outline: 0;
 
 }
 
-/* @media screen and ( min-width: 428px){
-
-  .header .logo img{
-    height: 60px;
-    padding: 4%;
-    padding-top: 2%;
-  }
-
-} */
-
 @media screen and ( max-width: 414px) {
 
 .headerout{

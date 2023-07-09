@@ -12,34 +12,48 @@
     <!-- 網頁 icon -->
     <link rel="icon" href="./img/favicon-16x16.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-
     <link rel="stylesheet" href="./css/index_style.css">
+    <link rel="stylesheet" href="./css/section.css">
 
 </head>
 <body>
     <!-- <div class="wrapper"> -->
 
-            <div class="header">
-                <div class="headerout">
-                <!-- 左側logo -->
-                    <div class="logo">
-                        <a href="./index.html"><img src="img/logo.svg" alt="headerlogo"></a>
-                    </div>
-                <!-- 右側選單 -->
-                    <nav class="headerlister">
-                        <div class="listtext">
-                            <a href="./product.html"> 新品</a>
-                            <a href="./news.html"> 最新消息</a>
-                            <a href="./about.html"> 關於</a>
-                            <a href="./outfit.html"> Outfit</a>
-                            <span class="material-symbols-outlined">search</span>
-                            <span class="material-symbols-outlined">shopping_cart</span>
-                            <span class="material-symbols-outlined">account_circle</span>
-                            <span><i class="fa fa-bars" aria-hidden="true"></i></span>
-                        </div>
-                    </nav>
+        <div class="header">
+            <div class="headerout">
+              <!-- 左側logo -->
+              <div class="logo">
+                <a href="./index.html"><img src="img/logo.gif" alt="headerlogo" /></a>
+              </div>
+    
+              <!-- 右側選單 -->
+              <nav class="headerlister">
+                <div class="listtext">
+    
+                  <div class="showmenu">
+                    <span class="material-symbols-outlined">search</span>
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                    <span><i class="fa-solid fa-bars"></i></span>
+                
+                  </div>
+    
+                  <ul>
+                    <li><span class="material-symbols-outlined">search</span></li>
+                    <li><a href="./product.html"> 新品</a></li>
+                    <li><a href="./news.html"> 最新消息</a></li>
+                    <li><a href="./about.html"> 關於</a></li>
+                    <li><a href="./outfit.html"> Outfit</a></li>
+                    <li><span class="material-symbols-outlined">shopping_cart</span></li>
+                    <li><span class="material-symbols-outlined">account_circle</span></li>
+                    
+                  </ul>
+                          
                 </div>
+                
+              </nav>
+    
             </div>
+          </div>
             
             <!--================== Grid ================== -->
 
@@ -119,85 +133,60 @@
     </div>
     <div class="swiper-pagination"></div>
   </div>
-<!-- select-->
-        <!-- ================== select ================== -->
-            <!-- <div class="select">
-
-                <div class="block">
-                    <div class="blocktitle">
-                        <h2>新品</h2>
-                    </div>
-                    
-                    <ul>
-                        <li>
-                            <div class="info">
-                                <img src="./img/index-pd01.jpg" alt="" >
-                                <p>飾品</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="info">
-                                <img src="./img/index-pd02.jpg" alt="">
-                                <p>襯衫</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="info">
-                                <img src="./img/index-pd03.jpg" alt="">
-                                <p>美式Tee</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="info">
-                                <img src="./img/index-pd04.jpg" alt="">
-                                <p>包款</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="info">
-                                <img src="./img/index-pd05.jpg" alt="">
-                                <p>鞋款</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="info">
-                                <img src="./img/index-pd06.jpg" alt="">
-                                <p>帽款</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div> -->
         <!-- ======================== main ======== -->
 
-            <div class="main">
-                <div class="maintext">
-                    <h2>OUTFIT</h2>
-                </div>
-                    <div class="mainpic">
-
-                        <div class="pic01">
-                            <img src="./img/outfit_01.jpg" alt="">
-                            <h2>OUTFIT</h2>
+        <section class="wrapper-full tab-container effectTab-header" id="style_1" style="padding-top:170px;">
+            <div class="mainHeader"><h2>OUTFIT</h2></div>
+            <div class="wrapper tab-item">
+              <div class="custom-row">
+      
+                <div class="column-12 column-xs-12 column-sm-12 tab">
+                  <div class="custom-row">
+                    <div class="column-4 column-md-6 column-xs-12 hide-sm hide-md box-tab">
+                      <div class="effect effect-one">
+                        <img src="./img/outfit_01.jpg" class="img-fluid">
+                        <div class="tab-text">
+                          <h2>OUTFIT</h2>
                         </div>
-
-                        <div class="pic02">
-                            <img src="./img/outfit_02.jpg" alt="">
-                            <h2>O2</h2>
-                        </div>
-
-                        <div class="pic03">
-                            <img src="./img/outfit_03.jpg" alt="">
-                            <h2>03</h2>
-                        </div>
-
-                        <div class="pic04">
-                            <img src="./img/outfit_04.jpg" alt="">
-                            <h2>OUTFIT</h2>
-                        </div>
-                    
+                      </div>
                     </div>
+                    <div class="column-8 column-md-6 hide-xs hide-sm hide-md box-tab">
+                      <div class="effect grid-width8 effect-one">
+                        <img src="./img/outfit_02.jpg" class="img-fluid">
+                        <div class="tab-text">
+                          <h2 class="pt-1">grid column 8</h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column-6 column-md-6 hide-xs hide-sm box-tab">
+                      <div class="effect grid-width6 effect-one">
+                        <img src="./img/outfit_03.jpg" class="img-fluid">
+                        <div class="tab-text">
+                          <h2 class="pt-2">column 6 grid</h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column-3 column-md-6 column-sm-6 hide-xs box-tab">
+                      <div class="effect grid-width3 effect-one">
+                        <img src="./img/outfit_04.jpg" class="img-fluid">
+                        <div class="tab-text">
+                          <h2 class="pt-3">column 3</h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column-3 column-sm-6 hide-xs hide-md box-tab">
+                      <div class="effect grid-width3 effect-one">
+                        <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" class="img-fluid">
+                        <div class="tab-text">
+                          <h2 class="pt-3">column 3</h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </section>
 
             <!-- ======================== main ======================== -->
 
@@ -225,67 +214,69 @@
             <!------------------footer------------------>
             <div class="footer">
                 <div class="footerimg">
-                    <img src="./img/memo.png" alt="footerlogo">
-                </div>
-            <!-- shop -->
+                  <img src="./img/memo.png" alt="footerlogo" />
+                </div> 
+                <!-- shop -->
                 <div class="shop">
-                    <p>產品</p>
-                    <ul>
-                        <li><a href="#">最新上市</a></li>
-                        <li><a href="#">上身</a></li>
-                        <li><a href="#">飾品配件</a></li>
-                        <li><a href="#">下身</a></li>
-                    </ul>
+                  <p>產品</p>
+                  <ul>
+                    <li><a href="#">最新上市</a></li>
+                    <li><a href="#">上身</a></li>
+                    <li><a href="#">飾品配件</a></li>
+                    <li><a href="#">下身</a></li>
+                  </ul>
                 </div>
-            <!-- suppor -->
+                <!-- suppor -->
                 <div class="suppor">
-                    <p>服務</p>
-                    <ul>
-                        <li><a href="#">關於我們</a></li>
-                        <li><a href="#">客服FAQ</a></li>
-                        <li><a href="#">退貨政策</a></li>
-                        <li><a href="#">服務條款</a></li>
-                    </ul>
+                  <p>服務</p>
+                  <ul>
+                    <li><a href="#">關於我們</a></li>
+                    <li><a href="#">客服FAQ</a></li>
+                    <li><a href="#">退貨政策</a></li>
+                    <li><a href="#">服務條款</a></li>
+                  </ul>
                 </div>
-            <!-- followerus -->
+                <!-- followerus -->
                 <div class="follow">
-                    <span>FOLLOW US</span>
-
-                    <div class="icon">
-                        <a href="#"><i class="fa-brands fa-facebook" style="color: #6e6e6e;"></i></a>
-                        <a href="https://www.instagram.com/im_m_off/"><i class="fa-brands fa-instagram" style="color: #6e6e6e;"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter" style="color: #6e6e6e;"></i></a>
-                        <a href=""><i class="fa-brands fa-youtube" style="color: #6e6e6e;"></i></a>
-                    </div>
-
-                    <div class="tel">
-                        <p>電話：(02)2785-6789</p>
-                        <p>地址：台北市中山區南京東路三段219號</p>
-                    </div>
-
-                    <div class="followup">  
-                        <p>訂閱我們</p>
-                        <input placeholder="請輸入E-mail" >
-                        <button class="button">發送</button>
-                    </div>
-                </div>
-                
-
-                
-            </div>
-
-            <!-- copyright -->
-
-            <div class="copyright">
-                <p>Copyright © I′Ｍ OFF  Co., Ltd. 本網站為緯育TibaMe【第85期】前端工程
-                    師專業技術養成班學員作品,僅供學習、展示之用途。</p>
-            </div>
-
-            <Script>
+                  <span>FOLLOW US</span>
         
-            </Script>
-            </div>
-            
+                  <div class="icon">
+                    <a href="#"
+                      ><i class="fa-brands fa-facebook" style="color: #6e6e6e"></i
+                    ></a>
+                    <a href="https://www.instagram.com/im_m_off/"
+                      ><i class="fa-brands fa-instagram" style="color: #6e6e6e"></i
+                    ></a>
+                    <a href="#"
+                      ><i class="fa-brands fa-twitter" style="color: #6e6e6e"></i
+                    ></a>
+                    <a href=""
+                      ><i class="fa-brands fa-youtube" style="color: #6e6e6e"></i
+                    ></a>
+                  </div>
+        
+                  <div class="tel">
+                    <p>電話：(02)2785-6789</p>
+                    <p>地址：台北市中山區南京東路三段219號</p>
+                  </div>
+        
+                  <div class="followup">
+                    <p>訂閱我們</p>
+                    <input placeholder="請輸入E-mail" />
+                    <button class="button">發送</button>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- copyright -->
+        
+             <div class="copyright">
+                <p>
+                  Copyright © I′Ｍ OFF. 本網站為緯育TibaMe【第85期】前端工程
+                  師專業技術養成班學員作品,僅供學習、展示之用途。
+                </p>
+              </div>
+                    
     <!-- </div> -->
 
 

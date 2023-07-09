@@ -9,127 +9,241 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,1,0"
+  />
+
     <title> Outfit | I'M OFF ! </title>
     <!-- 網頁 icon -->
     <link rel="icon" href="./img/favicon-16x16.png">
     <link href="./css/outfit.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-   <div class="header">
-<!-- 左側logo -->
-        <div class="logo">
-            <a href="./index.html"><img src="img/logo.svg" alt="headerlogo"></a>
-        </div>
-<!-- 右側選單 -->
-        <nav class="headerlister">
+    <div class="header">
+        <div class="headerout">
+          <!-- 左側logo -->
+          <div class="logo">
+            <a href="./index.html"><img src="img/logo.gif" alt="headerlogo" /></a>
+          </div>
+
+          <!-- 右側選單 -->
+          <nav class="headerlister">
             <div class="listtext">
-                <a href="./about.html"> About</a>
-                <a href="./product.html"> Product</a>
-                <a href="./news.html"> News</a>
-                <a href="./outfit.html"> Outfit</a>
+
+              <div class="showmenu">
                 <span class="material-symbols-outlined">search</span>
                 <span class="material-symbols-outlined">shopping_cart</span>
-                <span class="material-symbols-outlined">account_circle</span>
+                <span><i class="fa-solid fa-bars"></i></span>
+            
+              </div>
+
+              <ul>
+                <li><span class="material-symbols-outlined">search</span></li>
+                <li><a href="./product.html"> 新品</a></li>
+                <li><a href="./news.html"> 最新消息</a></li>
+                <li><a href="./about.html"> 關於</a></li>
+                <li><a href="./outfit.html"> Outfit</a></li>
+                <li><span class="material-symbols-outlined">shopping_cart</span></li>
+                <li><span class="material-symbols-outlined">account_circle</span></li>
+                
+              </ul>
+                      
             </div>
-        </nav>
-    </div>
+            
+          </nav>
 
-    <!--------------- menu bar --------------->
-<!-- 
-    <div class="menubar">
-        <div class="bartext">
-            <a href="#">NEW ARRIVALS</a>
-            <a href="#">TOP</a>
-            <a href="#">BOTTOM</a>
-            <a href="#">COAT</a>
-            <a href="#">SALE</a>
-        </div>    
-    </div> -->
-<!--------------- new number --------------->
-
-<div class="fornumber">
-    <div class="text">
-       <img src="./img/productnumber.jpg" alt="">
-    </div>
-</div>
-
-<!--------------- wrap--------------->
-
-<div class="wrap">
-    <div class="outfittext">
-        <h1>Make Your Fashion Look<br>
-            More Charming</h1>
-
-        <p>TRANDY AND<br>
-            CLUSSI FOR<br>
-            NEW SEASSON</p>
-    </div>
-
-    <div class="outfitpic">
-        <img src="./img/outfitpic.jpg" alt="">
-    </div>
-
-
-
-
-
-
-
-
-</div>
-
- 
-<!------------------footer------------------>
-
-    <div class="footer">
-        <div class="footerimg">
-            <img src="./img/memo.png" alt="footerlogo">
         </div>
-
-<!--------------- shop --------------->
-
-        <div class="shop">
-            <p>SHOP</p>
-            <ul>
-                <li><a href="#">TOP</a></li>
-                <li><a href="#">SHIRT</a></li>
-                <li><a href="#">SOCKS</a></li>
-                <li><a href="#">OUTERWEAR</a></li>
-            </ul>
+      </div>
+    <!--------------- wrapper --------------->
+    <div class="wrapper">
+        <div class="title">
+          <h2>照片集</h2>
         </div>
-
-<!---------------  suppor ------------- -->
-
-        <div class="suppor">
-            <p>SUPPOR</p>
-            <ul>
-                <li><a href="#">關於我們</a></li>
-                <li><a href="#">客服FAQ</a></li>
-                <li><a href="#">退貨政策</a></li>
-                <li><a href="#">服務條款</a></li>
-            </ul>
+        <div id="photos__container">
+          <div class="photo">
+            <img src="https://picsum.photos/360/480?random=1" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/530?random=3" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/380?random=5" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/560?random=4" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/440?random=2" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/220?random=6" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/340?random=11" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/210?random=12" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/355?random=13" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/480?random=14" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/540?random=15" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/310?random=16" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/270?random=17" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/380?random=18" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/280?random=19" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/355?random=20" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/380?random=21" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/680?random=31" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/420?random=22" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/380?random=41" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/410?random=51" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/390?random=61" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/450?random=25" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/540?random=26" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/480?random=14" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/440?random=15" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/310?random=16" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/270?random=17" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/180?random=18" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/280?random=19" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/385?random=20" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/380?random=21" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/580?random=31" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/520?random=22" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/380?random=41" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/410?random=51" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/330?random=61" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/350?random=25" alt="photo">
+          </div>
+          <div class="photo">
+            <img src="https://picsum.photos/360/540?random=26" alt="photo">
+          </div>
         </div>
+      </div>
 
-<!---------------  followerus ------------- -->
+    <script>
+const gap = 14;
+const photosContainer = document.getElementById("photos__container");
+const photos = document.getElementsByClassName("photo");
 
-        <div class="follow">
-            <span>FOLLOW US</span>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+function cascadeDisplay() {
+  const photosContainerWidth = photosContainer.offsetWidth;
+  const photoWidth = photos[0].offsetWidth;
+  // 計算一列最多有幾欄
+  const columnsCount = parseInt(photosContainerWidth / (photoWidth + gap));
+  const fistRowPhotosHeightArray = [];
+  // 進行照片排序
+  for (let i = 0; i < photos.length; i++) {
+    // 放上第一列的照片
+    if (i < columnsCount) {
+      photos[i].style.top = 0;
+      photos[i].style.left = (photoWidth + gap) * i + "px";
+      // 紀錄第一列的照片高
+      fistRowPhotosHeightArray.push(photos[i].offsetHeight);
+    } else {
+      // 放上第二列開始的照片
+      // 找出第一列的最小高度
+      let minHeight = Math.min(...fistRowPhotosHeightArray);
+      // 紀錄最小高度的index，以取得對應到第一列的位置，來決定left要移動多少
+      let index = fistRowPhotosHeightArray.indexOf(minHeight);
+      // 調整接續的photo位置，放到目前最小高度的地方
+      photos[i].style.top = minHeight + gap + "px";
+      // 取得對應到第一列photo的left位置
+      photos[i].style.left = photos[index].offsetLeft + "px";
+      // 最後!!再把原本儲存在陣列裡面為最小高度的值，更新上最新的高度(原本的高度+新的高度+間隔)
+      fistRowPhotosHeightArray[index] =
+        fistRowPhotosHeightArray[index] + photos[i].offsetHeight + gap;
+    }
+  }
+}
 
-            <p> JOIN OUR NEWSLETTER</p>
-            <input type="text">
-        </div>      
-    </div>
+// 畫面一進來
+window.onload = function () {
+  cascadeDisplay();
+};
 
-    <!-- copyright -->
+// 畫面寬度有變動
+window.onresize = function () {
+  cascadeDisplay();
+};
 
-    <div class="copyright">
-        <p>Copyright © I′Ｍ OFF  Co., Ltd. 本網站為緯育TibaMe【第85期】前端工程
-            師專業技術養成班學員作品,僅供學習、展示之用途。</p>
-    </div>
-</div>
+    </script>
+
+
 </body>
 </html>
