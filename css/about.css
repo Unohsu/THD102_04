@@ -656,15 +656,16 @@ outline: 0;
   .pic02{
     width: 100%;
   }
-
   .googlemap .map{
-    margin-left: 10px;
-    width: 450%;
-    height: auto;
+    margin-top: 10%;
+    width: 250px;
+    height: 250px;
+    margin: 8% auto;
   }
-  iframe{
-    width: 100%;
-    height: 100%;
+
+  .map>iframe{
+    width: 250px;
+    height: 250px;
   }
   
   .shop{
@@ -787,6 +788,18 @@ outline: 0;
   text-align: center;
 }
 
+.googlemap .map{
+  margin-top: 10%;
+  width: 250px;
+  height: 250px;
+  margin: 8% auto;
+}
+
+.map>iframe{
+  width: 250px;
+  height: 250px;
+}
+
 .footer{
   width: 100%;
   height: auto;
@@ -819,3 +832,128 @@ outline: 0;
 }
 
 }
+@media screen and ( max-width: 375px) {
+
+    
+  .headerout{
+    width: 100%;
+    height: 60px;
+    position: relative;
+  }
+  .logo{
+    margin-top: 1%;
+    margin-left: 5%;
+  }
+  .showmenu{
+    display: block;
+    float: none;
+    margin-right: 0px;
+    font-size: 16px;
+    line-height: 60px;
+  }
+
+  .showmenu i{
+    font-size: 30px;
+  }
+  
+  .material-symbols-outlined{
+    line-height: 60px;
+    text-align: end;
+  }
+  
+  .banner{
+    width: 100%;
+  }
+  .banner h1{
+    font-size: 18px;
+    left: calc(70% - 410px / 2 + 23.5px);
+    top: 230px;
+  }
+  
+  .title > img{
+    width: 20%;
+  }
+  
+  .title::after{
+    font-size: 16px;
+    transform: translateX(39px);
+  }
+  .title::before{
+    font-size: 16px;
+    transform: translateX(-87px);
+  }
+
+  .main p{
+    font-size: 14px;
+  }
+  
+  .pic{
+   max-width: 400px;
+   overflow: hidden;
+   width: 92%;
+  }
+  .contant-out{
+    flex-direction: column;
+  }
+  
+  .contantleft{
+    width: 95%;
+    padding: 0;
+  }
+  
+  .contant-out{
+    align-items: center;
+  }
+  
+  .contantleft h2{
+    text-align: center;
+    font-size: 30px;
+    line-height: 44px;
+  }
+
+  .googlemap .map{
+    margin-top: 10%;
+    width: 250px;
+    height: 250px;
+    margin: 8% auto;
+  }
+
+  .map>iframe{
+    width: 250px;
+    height: 250px;
+  }
+  
+  .footer{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    flex-direction: column;
+  }
+  .footerimg{
+    width: 50%;
+    text-align: center;
+  }
+  .infopic ul{
+    height: 360px;
+    flex-direction: column;
+  }
+  .suppor ul{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .suppor li{
+    margin: 2%;
+  }
+  .follow{
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: 4%;
+  }
+  .copyright{
+    line-height: 20px;
+  }
+  
+}
+  
+  
