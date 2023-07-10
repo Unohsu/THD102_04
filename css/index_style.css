@@ -822,7 +822,7 @@ body {
     padding: 0 0;
   }
 
-  .news h2 {
+  /* .news h2 {
     margin-top: 0;
   }
 
@@ -832,6 +832,35 @@ body {
 
   .newsout2 {
     width: 70%;
+  } */
+
+  .news {
+    margin-top: 76px;
+    height: 100%;
+  }
+
+  .news h2 {
+    margin-top: 0;
+  }
+
+  .newstext1 {
+    padding-top: 49px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .newstext2 {
+    padding-top: 49px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  .footer {
+    flex-direction: column;
+    height: auto;
   }
 
   .shop {
@@ -841,6 +870,9 @@ body {
   .follow {
     width: 100%;
     margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
   .follow p {
     letter-spacing: 0;
@@ -855,6 +887,11 @@ body {
   .suppor {
     width: 100%;
     margin: 0 auto;
+  }
+
+  .suppor ul {
+    display: flex;
+    justify-content: space-evenly;
   }
 
   .headerout {
