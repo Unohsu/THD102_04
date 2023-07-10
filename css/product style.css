@@ -523,14 +523,17 @@ ul.pagination li a:hover:not(.active) {background-color: #ddd;}
     .listtext li a{
       line-height: 60px;
     }
-  
-    .banner h1{
-      z-index: 10;
+    .left-box{
+      display: none;
     }
   
-    .showmenu i{
-  
-    }  
+    .pd-box {
+      max-width: 90%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 19px;
+  }
   
    
     
