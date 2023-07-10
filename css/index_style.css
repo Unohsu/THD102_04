@@ -960,7 +960,7 @@ body {
   }
 
   .article-left img {
-    width: 100%;
+    width: 80%;
   }
   .articleout {
     background-repeat: no-repeat;
@@ -992,8 +992,8 @@ body {
     display: inline;
   }
 
-  .article-left {
-    margin-right: 3%;
+.article-left {
+  text-align: center
   }
 
   .tab-container {
