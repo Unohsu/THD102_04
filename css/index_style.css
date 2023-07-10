@@ -280,6 +280,10 @@ body {
   font-weight: 400;
   font-size: 50px;
   color: #000000;
+  & a{
+    text-decoration: none;
+    color: #4e4d4d;
+  }
 }
 
 /* ======================== NEWS ======================== */
@@ -290,13 +294,17 @@ body {
   height: 747px;
 }
 
-.news h2 {
+.news h2{
   font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin-top: 200px;
   color: #000000;
   margin-bottom: 80px;
+  & a{
+    text-decoration: none;
+    color: #252525;
+  }
 }
 
 .newsout1 {
@@ -822,17 +830,6 @@ body {
     padding: 0 0;
   }
 
-  /* .news h2 {
-    margin-top: 0;
-  }
-
-  .newsout1 {
-    width: 70%;
-  }
-
-  .newsout2 {
-    width: 70%;
-  } */
 
   .news {
     margin-top: 76px;
