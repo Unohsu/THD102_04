@@ -124,7 +124,6 @@ body{
 
 .block-inner{
     max-width: 100%;
-
 }
 
 .pd-box{
@@ -196,8 +195,13 @@ body{
 .right-box-pdlist{
     padding: 0 12px 0;
     margin-bottom: 150px;
-    
+    position: relative;
 }
+
+.select-sort .js-select-sort{
+  text-align: right;
+}
+
 .product-item{
     margin-bottom: 68px;
   }
@@ -264,6 +268,9 @@ body{
     display: block;
     text-align: center;
     box-sizing: border-box;
+    position: absolute;
+    top: 520%;
+    right: 40%;
     
 }
 ul .pagination{
