@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Maps API 叢集標記範例</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBy5_SjUbRXayyiYVb9QaQSlRUW6CSM5Io"></script>
+    <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+    <style>
+      #map {
+        width: 100%;
+        height: 500px;
+      }
+      a {
+        color: #333;
+        text-align: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map" style="width: 1200px; height: 800px"></div>
+
+    <script>
+      const locations = [
+        { lat: 25.053320149720662, lng: 121.5421994398678 },
+        { lat: 25.052476608884234, lng: 121.5423311525796 },
+        { lat: 25.05222522026335, lng: 121.54484436566958 },
+        { lat: 25.052476573696303, lng: 121.54344450528004 },
+        { lat: 25.05237658366237, lng: 121.54137457518877 },
+      ];
+
+      function initMap() {
+        const cityhall = { lat: 25.05306071315057, lng: 121.54325283303625 };
+
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 14,
+          center: cityhall,
+        });
+
+        const infos = [
+          "健身工廠 長春廠",
+          "藍格印刷",
+          "兄弟大飯店",
+          "朱宗慶打擊樂",
+          "JR東日本大飯店 ",
+        ];
+        // const infowindow
+
+        const img = "img/placeholder.png";
+        const infowindow = new google.maps.InfoWindow();
+        // 創建標記
+        const markers = locations.map((position, i) => {
+          const info_label = infos[i];
+          const marker = new google.maps.Marker({
+            position,
+            info_label,
+            icon: img,
+          });
+          marker.addListener("click", () => {
+            infowindow.setContent(info_label);
+            infowindow.open(map, marker);
+          });
+          return marker;
+        });
+
+        // 創建叢集標記
+        const markerCluster = new markerClusterer.MarkerClusterer({
+          map,
+          markers,
+        });
+      }
+
+      // 載入地圖
+      initMap();
+    </script>
+  </body>
+</html>

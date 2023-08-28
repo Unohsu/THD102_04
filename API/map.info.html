@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Map API範例</title>
+
+    <style>
+      #map {
+        width: 100%;
+        height: 500px;
+      }
+      a {
+        color: #333;
+        text-align: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBy5_SjUbRXayyiYVb9QaQSlRUW6CSM5Io&callback=initMap"
+    ></script>
+    <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        const cityhall = { lat: 25.05306071315057, lng: 121.54325283303625 };
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 20,
+          center: cityhall,
+        });
+        const contentStr =
+          "<h1>緯育台北訓練中心</h1><p>文字文字</p><a href='https://www.tibame.com/' 官方網站</a> ";
+        const infowindow = new google.maps.InfoWindow({
+          content: contentStr,
+          ariaLabel: "緯育台北",
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+          position: cityhall,
+          map: map,
+          title: "緯育台北訓練中心",
+        });
+        
+        
+        marker.addListener("click", () => {
+          infowindow.open({
+            anchor: marker,
+            map,
+          });
+        });
+      }
+
+      window.initMap = initMap;
+    </script>
+  </body>
+</html>
